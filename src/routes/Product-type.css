@@ -1,0 +1,8 @@
+
+.product_card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.5rem;
+  justify-content: center;
+  padding-left: 2rem;
+}

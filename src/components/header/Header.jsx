@@ -3,10 +3,10 @@ import './Header.css'
 import { useState } from "react";
 import { useCategory } from "../../hooks/useCategory";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export function Header() {
   const {category} = useCategory()
-  console.log(category)
   const [categoryButtons, setcategoryButtons] = useState({})
   useEffect(() =>{
     if(!category[0]) return 
@@ -39,17 +39,17 @@ export function Header() {
             <label><SearchIcon/></label>
             <input name='search'/>
           </form>
-          <a href="#">
+          <Link to="/">
             <img src="https://ik.imagekit.io/z87g9nhhp/imgPrincipal/logo_c7LbIq7DK.png?updatedAt=1690219112145" alt="logo Be Merry" />
-          </a>
+          </Link>
           <div className="icons">
             <div className="icon_menu">
-              <label><HeartCircle/></label>
-              <label><BagHandle/></label>
+              <label className="icon_label"><HeartCircle/></label>
+              <label className="icon_label"><BagHandle/></label>
             </div>
-            <label><Instagram/></label>
-            <label><Whatsapp/></label>
-            <label><Help/></label>
+            <label className="icon_label"><Instagram/></label>
+            <label className="icon_label"><Whatsapp/></label>
+            <label className="icon_label"><Help/></label>
           </div>
         </div>{
           categoryButtons.accesorios && categoryButtons.ropita &&
@@ -66,7 +66,7 @@ export function Header() {
                 {
                   categoryButtons.nuevo.map((item) =>(
                     <li key={item._id}>
-                      <a to="#"> { item.name } </a>
+                      <Link to="#"> { item.name } </Link>
                     </li>
 
                   ))
@@ -86,7 +86,7 @@ export function Header() {
                 {
                   categoryButtons.ropita.map((item) =>(
                     <li key={item._id}>
-                      <a to="#"> { item.name } </a>
+                      <Link to={`productos/${item.name === 'VER TODO' ? 'ropita' : item.name}`}> { item.name } </Link>
                     </li>
 
                   ))
@@ -106,7 +106,7 @@ export function Header() {
                 {
                   categoryButtons.accesorios.map((item) =>(
                     <li key={item._id}>
-                      <a to="#"> { item.name } </a>
+                      <Link to={`productos/${item.name === 'VER TODO' ? 'accesorios' : item.name}`}> { item.name } </Link>
                     </li>
 
                   ))

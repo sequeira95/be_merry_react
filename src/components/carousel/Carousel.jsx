@@ -33,12 +33,6 @@ export function Carousel ({images = [], autoPlay = true}){
         style={{backgroundImage:`url(${images[currentIndex]})`}}>
       </div>
       {
-      /*<img
-        key={currentIndex}
-        src={images[currentIndex]}
-      />*/
-      }
-      {
         images.length > 1 && 
           <div className="slide_direction">
             <div className="left" onClick={handlePrevious}>

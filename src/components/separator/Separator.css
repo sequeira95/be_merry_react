@@ -1,0 +1,21 @@
+
+.separator{
+  position: relative;
+  padding-bottom: 3.87rem;
+}
+.separator svg{
+  position: absolute;
+  left: 50%;
+  top: -6px;
+  color: #FF8BB5;
+}
+.separator::before{
+  content: "";
+  position: relative;
+  display: block;
+  width: 34.90rem;
+  height: 5px;
+  border-bottom: 1px solid #FF8BB5;
+  margin-left: auto;
+  margin-right: auto;
+}

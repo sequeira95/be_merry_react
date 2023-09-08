@@ -1,6 +1,6 @@
 
 .carousel_category{
-  padding: 5rem 5rem 0;
+  padding: 5rem;
   justify-content: center;
   display: flex;
   gap: 3rem;
@@ -10,7 +10,7 @@
   max-width: 80vw;
   margin: 0 auto;
 }
-.carousel_category > div{
+.carousel_category > a{
   display: flex;
   flex-direction: column;
   height: 7.25rem;

@@ -1,0 +1,16 @@
+
+.custom_orders h4{
+  padding: 3rem 0 2.81rem 8.75rem;
+  font-family: 'Poppins', sans-serif;
+  color: #F97272;
+  font-size: 0.875rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.4375rem;
+}
+.custom_orders .custom_orders_card{
+  display: flex;
+  gap: 4.5rem;
+  justify-content: center;
+}
