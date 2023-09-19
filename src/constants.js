@@ -9,3 +9,9 @@ export const typeGet = {
 export const PRODUCT_ACTION_TYPE = {
   GET_PRODUCTS: 'GET_PRODUCTS',
 }
+export const BAG_ACTION_TYPES = {
+  ADD_TO_BAG: 'ADD_TO_BAG',
+  REMOVE_ONE_TO_BAG: 'REMOVE_ONE_TO_BAG',
+  REMOVE_FROM_BAG: 'REMOVE_FROM_BAG',
+  CLEAR_BAG: 'CLEAR_BAG'
+}

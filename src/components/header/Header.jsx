@@ -1,4 +1,4 @@
-import { BagHandle, HeartCircle, Help, Instagram, SearchIcon, Whatsapp } from "../icons";
+import { BagHandle, HeartCircle, Help, Instagram, SearchIcon, Whatsapp } from "../Icons";
 import './Header.css'
 import { useState } from "react";
 import { useCategory } from "../../hooks/useCategory";
@@ -45,7 +45,11 @@ export function Header() {
           <div className="icons">
             <div className="icon_menu">
               <label className="icon_label"><HeartCircle/></label>
-              <label className="icon_label"><BagHandle/></label>
+              <label className="icon_label">
+                <Link to='/bag'>
+                  <BagHandle/>
+                </Link>
+              </label>
             </div>
             <label className="icon_label"><Instagram/></label>
             <label className="icon_label"><Whatsapp/></label>

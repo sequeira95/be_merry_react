@@ -1,0 +1,328 @@
+{
+  "products":[
+    {
+      "_id": "1",
+      "name": "T-shirt",
+      "description": "A basic white T-shirt made of soft cotton",
+      "price": "19.99",
+      "category": "tops",
+      "type": "ropa",
+      "quanty": 10,
+      "imgPrincipal":{
+        "url":"https://ik.imagekit.io/z87g9nhhp/imgPrincipal/1iI0c3vMsX_jUWjCNPql.png?updatedAt=1692368226019"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "2",
+      "name": "Jeans",
+      "description": "A pair of blue denim jeans with a straight fit",
+      "price": "49.99",
+      "category": "jeans +",
+      "type": "ropa",
+      "quanty": 50,
+      "imgPrincipal":{
+        "url":"https://ik.imagekit.io/z87g9nhhp/imgPrincipal/srGgJeRc3e_EYna2sX7Y.png?updatedAt=1690466984315"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "3",
+      "name": "Sneakers",
+      "description": "Classic white sneakers with rubber sole",
+      "price": "59.99",
+      "category": "vestidos",
+      "type": "ropa",
+      "quanty": 75,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/sNBeCKgLzD_TVRDCMqA8.png?updatedAt=1690466908342"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "4",
+      "name": "Watch",
+      "description": "A stylish stainless steel wristwatch with leather strap",
+      "price": "99.99",
+      "category": "zarcillos",
+      "type": "accesorios",
+      "quanty": 25,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/7MIW1F0Z_T_5EwrYOeds.png?updatedAt=1690471305645"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "5",
+      "name": "Dress",
+      "description": "A floral print maxi dress perfect for summer",
+      "price": "39.99",
+      "category": "vestidos",
+      "type": "ropa",
+      "quanty": 30,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/sNBeCKgLzD_TVRDCMqA8.png?updatedAt=1690466908342"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "6",
+      "name": "Handbag",
+      "description": "A trendy black handbag with gold accents",
+      "price": "79.99",
+      "category": "collares",
+      "type": "accesorios",
+      "quanty": 20,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/DyyTGyPCAG_h0GsBuSLg.jpeg?updatedAt=1690471418585"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "7",
+      "name": "Hoodie",
+      "description": "A comfortable hoodie sweatshirt with a front pocket",
+      "price": "29.99",
+      "category": "tops",
+      "type": "ropa",
+      "quanty": 40,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/1iI0c3vMsX_jUWjCNPql.png?updatedAt=1692368226019"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "8",
+      "name": "Sandals",
+      "description": "Flat sandals with colorful beaded straps",
+      "price": "34.99",
+      "category": "collares",
+      "type": "accesorios",
+      "quanty": 60,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/DyyTGyPCAG_h0GsBuSLg.jpeg?updatedAt=1690471418585"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "9",
+      "name": "Hat",
+      "description": "A wide-brimmed straw hat for sun protection",
+      "price": "24.99",
+      "category": "anillos",
+      "type": "accesorios",
+      "quanty": 15,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/nHhj6WM7vJ_P6lY779WM.png?updatedAt=1690471447712"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "10",
+      "name": "Blouse",
+      "description": "A flowy silk blouse with a v-neckline",
+      "price": "49.99",
+      "category": "tops",
+      "type": "ropa",
+      "quanty": 35,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/1iI0c3vMsX_jUWjCNPql.png?updatedAt=1692368226019"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "11",
+      "name": "Shorts",
+      "description": "Denim cutoff shorts with frayed edges",
+      "price": "29.99",
+      "category": "jeans +",
+      "type": "ropa",
+      "quanty": 55,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/srGgJeRc3e_EYna2sX7Y.png?updatedAt=1690466984315"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "12",
+      "name": "Sunglasses",
+      "description": "Classic black sunglasses with UV protection",
+      "price": "19.99",
+      "category": "anillos",
+      "type": "accesorios",
+      "quanty": 45,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/nHhj6WM7vJ_P6lY779WM.png?updatedAt=1690471447712"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "13",
+      "name": "Swimsuit",
+      "description": "A one-piece swimsuit with a tropical print",
+      "price": "39.99",
+      "category": "shorts",
+      "type": "ropa",
+      "quanty": 25,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/xUe10-O-fH_4TnZ179JL.png?updatedAt=1690467410354"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "14",
+      "name": "Wallet",
+      "description": "A genuine leather wallet with multiple card slots",
+      "price": "34.99",
+      "category": "correas",
+      "type": "accesorios",
+      "quanty": 30,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/4ctYdcoZkt_fvWRpWSAz.png?updatedAt=1690578100841"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "15",
+      "name": "Sweater",
+      "description": "A cozy knit sweater in a neutral color",
+      "price": "49.99",
+      "category": "tops",
+      "type": "ropa",
+      "quanty": 40,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/1iI0c3vMsX_jUWjCNPql.png?updatedAt=1692368226019"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "16",
+      "name": "Boots",
+      "description": "Ankle boots with a block heel and buckle detail",
+      "price": "89.99",
+      "category": "collares",
+      "type": "accesorios",
+      "quanty": 20,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/DyyTGyPCAG_h0GsBuSLg.jpeg?updatedAt=1690471418585"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "17",
+      "name": "Necklace",
+      "description": "A delicate gold necklace with a pendant charm",
+      "price": "29.99",
+      "category": "collares",
+      "type": "accesorios",
+      "quanty": 35,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/DyyTGyPCAG_h0GsBuSLg.jpeg?updatedAt=1690471418585"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    },
+    {
+      "_id": "18",
+      "name": "Jacket",
+      "description": "A leather moto jacket with zippered pockets",
+      "price": "79.99",
+      "category": "vestidos",
+      "type": "ropa",
+      "quanty": 15,
+      "imgPrincipal":{
+        "url": "https://ik.imagekit.io/z87g9nhhp/imgPrincipal/sNBeCKgLzD_TVRDCMqA8.png?updatedAt=1690466908342"
+      },
+      "otherImg":[
+        {"url":"https://www.puntoblanco.co/images/PBC/HomePage/2023/semana18/tops.jpg"},
+        {"url":"https://webmediums.com/media/webp_max_1600/1*ngmZH2-Sm4763z11rcZnQg*jpeg.webp"},
+        {"url":"https://i.ytimg.com/vi/nqK5ZHzCKLY/maxresdefault.jpg"},
+        {"url":"https://i.pinimg.com/736x/59/21/2f/59212f459b1247b20e0a61fce2167c54.jpg"}
+      ]
+    }
+  ]
+}

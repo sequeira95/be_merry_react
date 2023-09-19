@@ -7,7 +7,6 @@ import { useProduct } from "../hooks/useProducts";
 export function Product () {
   const { productId } = useParams()
   const { product } = useProduct({productId})
-  console.log(product)
   return (
     <>
       <CarouselCategory/>

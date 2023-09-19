@@ -1,0 +1,42 @@
+.bag_bag_handle_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.bag_bag_handle_container svg{
+  height: 5rem;
+  width: 5rem;
+  padding-left: 1.5rem;
+}
+.bag_bag_handle_container span{
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #F97272;
+  padding-left: 1.5rem;
+}
+.bag_products_container{
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.bag_products_container > div{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.check_box{
+  color:#F97272
+}
+button{
+  border: none;
+  background: none;
+  cursor: pointer;
+}

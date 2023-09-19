@@ -1,12 +1,13 @@
 import { beMerryUrl, typeGet } from "../constants"
+import listOfProducts from '../mooks/listOfProducts.json'
 export async function getDataProducts({query}){
-  const newQuery = new URLSearchParams(query)
+  //const newQuery = new URLSearchParams(query)
   try {
-    const res = await fetch(`${beMerryUrl}${typeGet.productos}?${newQuery}`)
-    const products = await res.json()
+    const res = listOfProducts.products.filter(e => e.category === query.category)//await fetch(`${beMerryUrl}${typeGet.productos}?${newQuery}`)
+    const products = res//await res.json()
     return products
   }catch (e) {
-    throw new Error('Error en la busqueda de productos')
+    throw new Error('Error en la busqueda de productos' + e.message)
   }
 }
 export async function getDataProduct ({productId}){
