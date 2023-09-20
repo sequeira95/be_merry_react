@@ -5,8 +5,8 @@ export const bagInitialState = []
 export function bagReducer (state, action) {
   const {type:actionType, payload:actionPayload} = action
   if(actionType === BAG_ACTION_TYPES.ADD_TO_BAG){
-    const { _id } = actionPayload
-    const productInBagtIndex = state.findIndex(item => item._id === _id)
+    const { productId } = actionPayload
+    const productInBagtIndex = state.findIndex(item => item.productId === productId)
 
     if (productInBagtIndex >= 0) {
       const newState = [
@@ -27,8 +27,8 @@ export function bagReducer (state, action) {
   }
 
   if(actionType === BAG_ACTION_TYPES.REMOVE_ONE_TO_BAG){
-    const { _id } = actionPayload
-    const productInBagtIndex = state.findIndex(item => item._id === _id)
+    const { productId } = actionPayload
+    const productInBagtIndex = state.findIndex(item => item.productId === productId)
     if (productInBagtIndex >= 0) {
       const newState = [
         ...state.slice(0, productInBagtIndex),
@@ -39,8 +39,8 @@ export function bagReducer (state, action) {
     }
   }
   if(actionType === BAG_ACTION_TYPES.REMOVE_FROM_BAG){
-    const { _id } = actionPayload
-    const newState = state.filter(item => item._id !== _id)
+    const { productId } = actionPayload
+    const newState = state.filter(item => item.productId !== productId)
     return newState
   }
   if(actionType === BAG_ACTION_TYPES.CLEAR_BAG){

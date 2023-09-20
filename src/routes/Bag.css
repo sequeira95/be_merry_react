@@ -20,6 +20,11 @@
   color: #F97272;
   padding-left: 1.5rem;
 }
+.bag_container{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
 .bag_products_container{
   padding-left: 2rem;
   display: flex;

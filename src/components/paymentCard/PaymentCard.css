@@ -1,0 +1,48 @@
+.payment_card{
+  width: 22.5625rem;
+  height: 19.4375rem;
+  border-radius: 1.25rem;
+  border: 1px solid #FF8BB5
+}
+
+.payment_card_title{color: #FF8BB5;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.payment_card_price{color: #FF8BB5;
+  text-align: end;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 1rem;
+
+}
+
+.payment_card_separator{
+  position: relative;
+  padding-bottom: 1rem;
+}
+.payment_card_separator svg{
+  position: absolute;
+  left: 50%;
+  top: -6px;
+  color: #FF8BB5;
+}
+
+.payment_card_separator::before{
+  content: "";
+  position: relative;
+  display: block;
+  width: 20rem;
+  height: 5px;
+  border-bottom: 1px solid #FF8BB5;
+  margin-left: auto;
+  margin-right: auto;
+}
